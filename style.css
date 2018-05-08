@@ -1,0 +1,68 @@
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+    background: #ebebeb;
+  }
+  .topnav {
+      background: #ebebeb;
+      text-align: center;
+      height: 100px;
+      font-size: 48px;
+      padding: 14px 16px;
+  }
+  .column1 {
+    float: left;
+    width: 50%;
+    position: fixed'
+}
+.column2 {.parent {
+    display: flex; /* Or whatever */
+    background-color: green;
+
+
+  }
+  .child {
+    padding: 25px;
+    margin: 25;
+    background-color: blue;
+    flex: 1;
+  }
+  .child2 {
+      padding: 25;
+      margin: 25;
+      background-color: red;
+      flex: 1;
+  }
+ 
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+section {
+    border: 5px solid white;}
+
+    footer {
+        position: left;
+        clear: both;
+        color: #ffffff;
+        background-color: rgb(75, 75, 75);
+        text-align:center;
+        height: 50px;	
+        line-height: 50px;
+        font-size: 80%;
+        margin-left:-100%;
+        margin-right:-100%;
+    
